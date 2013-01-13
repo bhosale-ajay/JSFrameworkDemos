@@ -36,7 +36,11 @@
 var MovieEditView = Backbone.View.extend({
     initialize: function () {
         var modelObject = this.model.toJSON();
-        this.$el.html(window.util.applyTemplate('moviePlanSlot', modelObject));
+        //TODO :: Create edit view by applying template
+        //Display the view as bootstrap model dialog
+        //Capture events and validates the user data
+        //Update the model on server
+        //Close the dialog and destroy the view
     }
 });
 
