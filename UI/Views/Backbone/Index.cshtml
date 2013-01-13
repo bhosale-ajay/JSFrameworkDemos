@@ -1,0 +1,168 @@
+﻿@{
+    ViewBag.Title = "Movie Planner";
+    Layout = "~/Views/Shared/_LayoutBackbone.cshtml";
+         
+}
+<script type="text/javascript">
+    window.CURRENT_DATE = '@ViewBag.CurrentDate';
+</script>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span9 moviePlan">
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th width="132px">Show Timing</th>
+                        <th width="100px">Sun</th>
+                        <th width="100px">Mon</th>
+                        <th width="100px">Tue</th>
+                        <th width="100px">Wed</th>
+                        <th width="100px">Thu</th>
+                        <th width="100px">Fri</th>
+                        <th width="100px">Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="showtime" data-timeslot="0">Morning</td>
+                        <td id="0_0"></td>
+                        <td id="0_1"></td>
+                        <td id="0_2"></td>
+                        <td id="0_3"></td>
+                        <td id="0_4"></td>
+                        <td id="0_5"></td>
+                        <td id="0_6"></td>
+                    </tr>
+                    <tr>
+                        <td class="showtime" data-timeslot="1">Afternoon</td>
+                        <td id="1_0"></td>
+                        <td id="1_1"></td>
+                        <td id="1_2"></td>
+                        <td id="1_3"></td>
+                        <td id="1_4"></td>
+                        <td id="1_5"></td>
+                        <td id="1_6"></td>
+                    </tr>
+                    <tr>
+                        <td class="showtime" data-timeslot="2">Evening</td>
+                        <td id="2_0"></td>
+                        <td id="2_1"></td>
+                        <td id="2_2"></td>
+                        <td id="2_3"></td>
+                        <td id="2_4"></td>
+                        <td id="2_5"></td>
+                        <td id="2_6"></td>
+                    </tr>
+                    <tr>
+                        <td class="showtime" data-timeslot="3">Night</td>
+                        <td id="3_0"></td>
+                        <td id="3_1"></td>
+                        <td id="3_2"></td>
+                        <td id="3_3"></td>
+                        <td id="3_4"></td>
+                        <td id="3_5"></td>
+                        <td id="3_6"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="span3 searchLeftBar">
+            <form action="" class="form-horizontal">
+            <legend>Search for Movies</legend>
+            <div class="control-group">
+                <label class="control-label" for="inputName">Name</label>
+                <div class="controls">
+                    <input type="text" id="inputName" placeholder="Movie Name" class="span11" maxlength="64" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputGenres">Genres</label>
+                <div class="controls">
+                    <select id="inputGenres" class="span11">
+                        <option value=''></option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputAverageRatingOperator">Rating</label>
+                <div class="controls">
+                    <select id="inputAverageRatingOperator" class="span4">
+                        <option value='0'>=</option>
+                        <option value='1'>&lt;</option>
+                        <option value='2'>&lt;=</option>
+                        <option value='3'>&gt;=</option>
+                        <option value='4'>&gt;</option>
+                    </select>
+                    <select id="inputAverageRating" class="span7">
+                        <option value='0'></option>
+                        <option value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3'>3</option>
+                        <option value='4'>4</option>
+                        <option value='5'>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="inputReleaseYearOperator">Year</label>
+                <div class="controls">
+                    <select id="inputReleaseYearOperator" class="span4">
+                        <option value='0'>=</option>
+                        <option value='1'>&lt;</option>
+                        <option value='2'>&lt;=</option>
+                        <option value='3'>&gt;=</option>
+                        <option value='4'>&gt;</option>
+                    </select>
+                    <select id="inputReleaseYear" class="span7">
+                        <option value='0'></option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-primary btn-small">Search</button>
+                </div>
+            </div>
+            </form>
+            <div class="span12 searchResults">
+                <div class="pagination pagination-centered">
+                </div>
+                <table class="table table-hover table-condensed">
+                </table>
+            </div>
+            <script id="moviceResultItemTemplate" type="text/x-handlebars-template">
+                <td>
+                    <img style="height:62px;width:45px" rel="popover" data-content="{{ShortSynopsis}}" src="{{BoxArtUrl}}" class="img-polaroid" data-original-title="{{Name}}">
+                </td>
+                <td width="*" valign="top">
+                    <strong>{{Name}}</strong><br/>
+                    {{ReleaseYear}}<br/>
+                    {{AverageRating}}
+                </td>
+            </script>
+            <script id="moviePlanSlot" type="text/x-handlebars-template">
+            {{#if Movie}}
+                <img style="height:109px;width:80px" rel="popover" data-content="{{Movie.ShortSynopsis}}" src="{{Movie.BoxArtUrl}}" data-original-title="{{Movie.Name}}">
+            {{/if}}
+            </script>
+            <script id="movieDragHelperTemplate" type="text/x-handlebars-template">
+                <div class="draghandle">
+                    <div style="margin: 5px; float: left">
+                        <img class="img-polaroid" style=width="45px" height="62px" class="left" src="{{BoxArtUrl}}"/>
+                    </div>
+                    <div style="margin-top: 15px; float: left;width:80px">
+                        <strong>{{Name}}</strong>
+                    </div>
+                    <div id="dropinfo"></div>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+@section BackboneScripts
+{
+    <script src="~/Scripts/Backbone/HomePage/models.js"></script>
+    <script src="~/Scripts/Backbone/HomePage/view.extensions.js"></script>
+    <script src="~/Scripts/Backbone/HomePage/views.js"></script>
+    <script src="~/Scripts/Backbone/HomePage/controller.js"></script>
+}

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://odata.netflix.com/Catalog/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Titles</title>
+  <id>http://odata.netflix.com/catalog/Genres('Hindi-Language%20Movies')/Titles()/</id>
+  <updated>2012-12-09T08:38:56Z</updated>
+  <link rel="self" title="Titles" href="Titles" />
+  <m:count>2209</m:count>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVWFa')</id>
+    <title type="text">Jo Jeeta Wohi Sikandar</title>
+    <summary type="html">Dreaming of future fame and fortune, poverty-stricken local boys Sanjay (Aamir Khan) and Ratan (Mamik) have different perspectives on how to achieve success in the college town of Dehradun. Hardworking and dedicated, cycling championship hopeful Ratan places all his energy in achieving victory, but Sanjay only cares about dating the wealthy Devika (Pooja Bedi). But after Ratan is injured, Sanjay must rise to the occasion to save his friendship.</summary>
+    <updated>2011-01-06T20:16:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;1/6/2011 8:16:39 PM&quot;" rel="edit-media" title="Title" href="Titles('BVWFa')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVWFa')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/8019/518019.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVWFa</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1992</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVXz7')</id>
+    <title type="text">Lage Raho Munna Bhai</title>
+    <summary type="html">Lighthearted gangster Munna Bhai (Sanjay Dutt) and his partner in crime, Circuit (Arshad Warsi), are back in action, and this time, their adventures lead Munna straight down lover's lane. He's fallen for Jhanvi (Vidya Balan), a radio DJ. To capture her attention, Munna vows to win her station's contest, which tests the participants' knowledge about Mahatma Gandhi. But intellectualism isn't Munna's strong suit. So how will he win Jhanvi's hand?</summary>
+    <updated>2010-11-11T23:02:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;11/11/2010 11:02:35 PM&quot;" rel="edit-media" title="Title" href="Titles('BVXz7')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVXz7')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/1618/571618.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVXz7</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2006</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVyHw')</id>
+    <title type="text">Wanted</title>
+    <summary type="html">As wars between rival gangs plague the city of Mumbai, one skilled assassin rises above the rest. Working for a crime lord (Prakash Raj), Radhe (Salman Khan) coldly takes out his boss's enemies -- but a tender side emerges when he meets the sweet-natured Jhanvi (Ayesha Takia). But a cruel and corrupt police inspector (Mahesh Manjrekar) has also taken a liking to Jhanvi -- and that doesn't sit very well with Radhe.</summary>
+    <updated>2010-12-20T17:54:45Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;12/20/2010 5:54:45 PM&quot;" rel="edit-media" title="Title" href="Titles('BVyHw')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVyHw')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/4953/594953.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVyHw</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2009</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BW13p')</id>
+    <title type="text">Bhopali</title>
+    <summary type="html">In 1984, the people of Bhopal, India, fell victim to one of history's most horrific industrial accidents: a lethal gas leak linked to Union Carbide. This documentary from director Max Carlson explores the lives of the survivors, including Saiba Babu, an 18-month-old born with birth defects. Experts such as Noam Chomsky, attorney Rajan Sharma and activist Satinath Sarangi provide insights into the disaster.</summary>
+    <updated>2012-01-13T21:50:33Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;1/13/2012 9:50:33 PM&quot;" rel="edit-media" title="Title" href="Titles('BW13p')/$value" />
+    <link rel="edit" title="Title" href="Titles('BW13p')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/6307/596307.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BW13p</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2011</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BW1DF')</id>
+    <title type="text">Band Baaja Baaraat</title>
+    <summary type="html">Shruti and Bittoo start a wedding planning company together after they graduate from college. All signs point to success until the partners let romance get in the way of business. They go separate ways, but fate conspires to bring them back together.</summary>
+    <updated>2012-10-23T22:39:04Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 10:39:04 PM&quot;" rel="edit-media" title="Title" href="Titles('BW1DF')/$value" />
+    <link rel="edit" title="Title" href="Titles('BW1DF')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/6603/596603.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BW1DF</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2010</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BW4vb')</id>
+    <title type="text">Do Dooni Chaar</title>
+    <summary type="html">Santosh, a struggling math teacher in Delhi, holds down a second job to keep his family afloat. When he receives a wedding invitation in the mail, he's determined to attend -- no matter what the cost.</summary>
+    <updated>2011-06-09T15:44:16Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/9/2011 3:44:16 PM&quot;" rel="edit-media" title="Title" href="Titles('BW4vb')/$value" />
+    <link rel="edit" title="Title" href="Titles('BW4vb')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/8237/598237.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BW4vb</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2010</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BW9Oy')</id>
+    <title type="text">Zindagi Na Milegi Dobara</title>
+    <summary type="html">Three best friends set off on an adventurous road trip/bachelor party in Spain after one of them becomes engaged. Along the way, they learn some lessons about themselves and each other that will change them forever.</summary>
+    <updated>2012-06-25T21:42:51Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/25/2012 9:42:51 PM&quot;" rel="edit-media" title="Title" href="Titles('BW9Oy')/$value" />
+    <link rel="edit" title="Title" href="Titles('BW9Oy')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/9147/599147.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BW9Oy</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2011</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BWDJh')</id>
+    <title type="text">Singham</title>
+    <summary type="html">After young police inspector Rakesh Kadam kills himself when powerful gangster Jaikant Shirke frames him for corruption, his widow is unable to get justice. But soon honest cop Bajirao Singham takes on Jaikant.</summary>
+    <updated>2012-10-22T21:53:01Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/22/2012 9:53:01 PM&quot;" rel="edit-media" title="Title" href="Titles('BWDJh')/$value" />
+    <link rel="edit" title="Title" href="Titles('BWDJh')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/4909/1964909.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BWDJh</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2011</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('7wq7L')</id>
+    <title type="text">Sholay</title>
+    <summary type="html">When former police chief Thakur (Sanjeev Kumar) vows to exact revenge on bandit Gabbar (Amjad Khan), who brutally gunned down his family, he hires two petty crooks, Veeru (Dharmendra) and Jai (Amitabh Bachchan), to carry out his plan -- with interesting results. India's best-known "curry" Western combines elements of traditional and spaghetti Western epics in a film that was very successful in its time, a milestone in Bollywood history.</summary>
+    <updated>2011-05-06T21:26:09Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;5/6/2011 9:26:09 PM&quot;" rel="edit-media" title="Title" href="Titles('7wq7L')/$value" />
+    <link rel="edit" title="Title" href="Titles('7wq7L')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/5996/535996.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>7wq7L</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1975</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('88ZyL')</id>
+    <title type="text">Chupke Chupke</title>
+    <summary type="html">Newly married Parimal Tripathi (Dharmendra) develops an inferiority complex as a result of the fawning admiration his bride (Sharmila Tagore) shows toward her brother-in-law, Raghav Sharma (Om Prakash) -- and decides to even things up by playing a trick on the unsuspecting Raghav. Thus begins an escalating succession of pranks that give rise to comical consequences in this rib-tickling Bollywood tale.</summary>
+    <updated>2012-02-04T19:33:06Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;2/4/2012 7:33:06 PM&quot;" rel="edit-media" title="Title" href="Titles('88ZyL')/$value" />
+    <link rel="edit" title="Title" href="Titles('88ZyL')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/6396/536396.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>88ZyL</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1975</d:ReleaseYear>
+    </m:properties>
+  </entry>
+</feed>

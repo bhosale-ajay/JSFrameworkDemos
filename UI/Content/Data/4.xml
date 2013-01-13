@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://odata.netflix.com/Catalog/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Titles</title>
+  <id>http://odata.netflix.com/catalog/Genres('Hindi-Language%20Movies')/Titles()/</id>
+  <updated>2012-12-09T07:45:20Z</updated>
+  <link rel="self" title="Titles" href="Titles" />
+  <m:count>2209</m:count>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('8Asu7')</id>
+    <title type="text">Dil To Pagal Hai</title>
+    <summary type="html">In this award-winning Bollywood drama, dance-troupe choreographer Rahul rejects love, but that doesn't stop lead dancer Nisha from falling for him. But when Nisha becomes injured, Rahul replaces her with Pooja and falls in love with her instead.</summary>
+    <updated>2012-10-23T20:52:26Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 8:52:26 PM&quot;" rel="edit-media" title="Title" href="Titles('8Asu7')/$value" />
+    <link rel="edit" title="Title" href="Titles('8Asu7')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/6577/536577.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>8Asu7</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1997</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('8Bovu')</id>
+    <title type="text">Gol Maal</title>
+    <summary type="html">In this Bollywood comedy, fun-loving accountant Ram Prasad (Amol Palekar) lands a job at a firm run by strict Bhavani Shankar (Utpal Dutt). When Ram's sports obsession causes a problem at work, he creates an identical twin, Laxman (also played by Palekar), and a comedy of errors ensues. Shankar's daughter, Urmila (Bindiya Goswami), falls for Laxman and wants to marry him. But Shankar has his own plans for her to marry Ram.</summary>
+    <updated>2012-01-31T09:45:16Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;1/31/2012 9:45:16 AM&quot;" rel="edit-media" title="Title" href="Titles('8Bovu')/$value" />
+    <link rel="edit" title="Title" href="Titles('8Bovu')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/6644/536644.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>8Bovu</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1979</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApMLl')</id>
+    <title type="text">Mohabbatein</title>
+    <summary type="html">With the support of a teacher who advises the boys to follow their hearts, three teens experience the confusion of love and its many layers: Sameer pines for a childhood friend; rugged Vicky caters to the spoiled Ishika; and Karan falls for a widow.</summary>
+    <updated>2012-09-23T15:18:59Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;9/23/2012 3:18:59 PM&quot;" rel="edit-media" title="Title" href="Titles('ApMLl')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApMLl')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/7364/497364.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApMLl</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2000</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApToP')</id>
+    <title type="text">Mr. and Mrs. Iyer</title>
+    <summary type="html">Mrs. Iyer is traveling by bus to Calcutta to be with her husband. But a flare-up between Hindus and Muslim extremists closes the roads, and a curfew descends. While the riders are trapped on the bus, a gang of Hindus boards to ferret out any Muslims. Mrs. Iyer was brought up to believe that Muslims were inferior, but during the journey, she comes to realize that it's who a person is, not their religions, that's the defining factor.</summary>
+    <updated>2010-12-31T08:50:50Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;12/31/2010 8:50:50 AM&quot;" rel="edit-media" title="Title" href="Titles('ApToP')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApToP')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/2914/502914.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApToP</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2002</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUrf')</id>
+    <title type="text">Kal Ho Naa Ho: Tomorrow May Never Come</title>
+    <summary type="html">Ever since a family tragedy turned her world upside down, Naina (Preity Zinta) has been overwhelmed and feels as if she's 23 going on 50. Enter Aman (Shahrukh Khan), who, like a breath of fresh air, moves into Naina's Indian neighborhood and helps others resolve their problems. Aman and Naina fall in love, but he refuses to marry her and instead pushes her toward another man. What secret is he hiding that is preventing him from being with Naina?</summary>
+    <updated>2011-06-23T08:23:09Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/23/2011 8:23:09 AM&quot;" rel="edit-media" title="Title" href="Titles('ApUrf')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUrf')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/4287/504287.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUrf</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2003</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVgBf')</id>
+    <title type="text">Jodhaa Akbar</title>
+    <summary type="html">What begins as a strategic alliance of two cultures becomes a genuine opportunity for true love between a mighty Mughal emperor and a Hindu princess in director Ashutosh Gowariker's epic romance set in 16th-century India.</summary>
+    <updated>2012-09-23T14:25:23Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;9/23/2012 2:25:23 PM&quot;" rel="edit-media" title="Title" href="Titles('BVgBf')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVgBf')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/9431/579431.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVgBf</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2008</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVjhB')</id>
+    <title type="text">Rab Ne Bana Di Jodi</title>
+    <summary type="html">Suri, a mild-mannered office worker, sees his ordinary existence transform into an extraordinary love story when he falls for Taani, a vivacious young woman who lives life to the fullest.</summary>
+    <updated>2012-09-23T15:32:17Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;9/23/2012 3:32:17 PM&quot;" rel="edit-media" title="Title" href="Titles('BVjhB')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVjhB')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/2172/582172.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVjhB</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2008</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVL2G')</id>
+    <title type="text">Mera Naam Joker</title>
+    <summary type="html">Aspiring clown Raju (Raj Kapoor) decides to pursue the path of his dead father, a famous circus clown loved by all, in this drama, which follows Raju from childhood through his training, triumphs and heartbreaks. The legendary Kapoor also directed this 1970 gem, casting his son Rishi in the role of young Raju. Dharmendra portrays the circus owner, and Simi Garewal, Padmini and Kseniya Ryabinkina play Raju's love interests.</summary>
+    <updated>2009-10-07T05:06:22Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/7/2009 5:06:22 AM&quot;" rel="edit-media" title="Title" href="Titles('BVL2G')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVL2G')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/2920/552920.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVL2G</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1970</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVLAK')</id>
+    <title type="text">Sujata</title>
+    <summary type="html">In the midst of a cholera epidemic, Brahmin couple Upendra (Tarun Bose) and Charu (Sulochana Latkar) take in an "untouchable" baby. The child, Sujata, grows up to attract the attention of a young suitor, but her caste background casts a heavy shadow on the pairing. Also starring Sunil Dutt and Lalita Pawar, this 1959 melodrama from director Bimal Roy remains a probing critique of India's caste system.</summary>
+    <updated>2010-11-13T05:32:44Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;11/13/2010 5:32:44 AM&quot;" rel="edit-media" title="Title" href="Titles('BVLAK')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVLAK')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/2972/552972.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVLAK</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1959</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVnz8')</id>
+    <title type="text">Rab Ne Bana Di Jodi: Bonus Material</title>
+    <summary type="html">The bonus disc for acclaimed director Aditya Chopra's "Rab Ne Bana Di Jodi" includes a making-of the movie featurette, deleted scenes, interviews with the cast, trailers, music videos and a look behind-the-scenes of the film.</summary>
+    <updated>2012-01-11T20:59:23Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;1/11/2012 8:59:23 PM&quot;" rel="edit-media" title="Title" href="Titles('BVnz8')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVnz8')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/7560/587560.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVnz8</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.8</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2008</d:ReleaseYear>
+    </m:properties>
+  </entry>
+</feed>

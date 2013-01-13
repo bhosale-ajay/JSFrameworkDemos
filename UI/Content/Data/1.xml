@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://odata.netflix.com/Catalog/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Titles</title>
+  <id>http://odata.netflix.com/catalog/Genres('Hindi-Language%20Movies')/Titles()/</id>
+  <updated>2012-12-09T07:43:22Z</updated>
+  <link rel="self" title="Titles" href="Titles" />
+  <m:count>2209</m:count>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BWDsD')</id>
+    <title type="text">Barfi!</title>
+    <summary type="html">Years after rejecting Barfii, a hearing and speech impaired young man, for a more "appropriate" suitor, Shruti crosses paths with him once again. Now, the tables are turned as he has a girlfriend -- and Shruti finds herself falling for him.</summary>
+    <updated>2012-10-09T15:26:48Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/9/2012 3:26:48 PM&quot;" rel="edit-media" title="Title" href="Titles('BWDsD')/$value" />
+    <link rel="edit" title="Title" href="Titles('BWDsD')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/9423/1689423.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BWDsD</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.2</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2012</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BWMYE')</id>
+    <title type="text">Ek Tha Tiger</title>
+    <summary type="html">When elite Indian secret agent Tiger investigates a Dublin scientist who may be selling secret missile technology to Pakistan, he falls for the scientist's caretaker, and the two find themselves on an explosive journey of espionage and passion.</summary>
+    <updated>2012-10-19T19:41:52Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/19/2012 7:41:52 PM&quot;" rel="edit-media" title="Title" href="Titles('BWMYE')/$value" />
+    <link rel="edit" title="Title" href="Titles('BWMYE')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/9893/1609893.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BWMYE</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.2</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2012</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApMGZ')</id>
+    <title type="text">Taxi Driver</title>
+    <summary type="html">Dev Anand is a taxi driver in Mumbai, India. He meets a singer who has come to Mumbai in search of her guru, and their friendship soon leads to romance. The film's outstanding soundtrack includes some memorable songs by Talat Mehamood and Lata.</summary>
+    <updated>2012-04-26T18:36:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;4/26/2012 6:36:35 PM&quot;" rel="edit-media" title="Title" href="Titles('ApMGZ')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApMGZ')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/9784/539784.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApMGZ</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1954</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUru')</id>
+    <title type="text">Kabhi Khushi Kabhie Gham</title>
+    <summary type="html">Businessman Yash Raichand (Amitabh Bachchan) and his wife Nandini (Jaya Bachchan) have raised their sons with love and affection, but Yash disowns his adopted son Rahul (Shah Rukh Khan) after he marries a young woman of a lower social standing in this Bollywood classic. A decade later, younger brother Rohan (Hrithik Roshan) heads overseas to search for Rahul with the hope of reuniting his broken family.</summary>
+    <updated>2011-06-23T08:23:09Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/23/2011 8:23:09 AM&quot;" rel="edit-media" title="Title" href="Titles('ApUru')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUru')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/9709/549709.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUru</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2001</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVfQ7')</id>
+    <title type="text">Like Stars on Earth</title>
+    <summary type="html">Ishaan is upset when his parents send him away to boarding school, hoping he'll become more disciplined. But his misery abates when an unconventional art teacher tries to help his imaginative young student discover his true identity.</summary>
+    <updated>2012-10-23T01:17:57Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 1:17:57 AM&quot;" rel="edit-media" title="Title" href="Titles('BVfQ7')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVfQ7')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/8984/578984.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVfQ7</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2007</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVV4i')</id>
+    <title type="text">Rang De Basanti</title>
+    <summary type="html">An English filmmaker turns to a group of student actors to film a docudrama about India's revolution against British rule in the 1920s. Her cast soon realizes, however, that their modern lifestyles do little to honor their forefathers' sacrifices.</summary>
+    <updated>2012-09-23T14:59:51Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;9/23/2012 2:59:51 PM&quot;" rel="edit-media" title="Title" href="Titles('BVV4i')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVV4i')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/7376/567376.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVV4i</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2006</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BWIAG')</id>
+    <title type="text">Kahaani</title>
+    <summary type="html">Pregnant and alone in the city of Kolkata, a woman begins a relentless search for her missing husband, only to find that nothing is what it seems. All clues seem to reach a dead end when everyone tries to convince her that her husband does not exist.</summary>
+    <updated>2012-10-19T18:38:28Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/19/2012 6:38:28 PM&quot;" rel="edit-media" title="Title" href="Titles('BWIAG')/$value" />
+    <link rel="edit" title="Title" href="Titles('BWIAG')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/3017/603017.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BWIAG</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2012</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BWK2y')</id>
+    <title type="text">Gangs of Wasseypur</title>
+    <summary type="html">When powerful outlaw Shahid Khan is reduced to working in Ramadhir Singh's coal mines, it sets off a feud of vengeance between their two families that continues for more than six decades in this high-octane Bollywood thriller.</summary>
+    <updated>2012-10-13T05:49:47Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/13/2012 5:49:47 AM&quot;" rel="edit-media" title="Title" href="Titles('BWK2y')/$value" />
+    <link rel="edit" title="Title" href="Titles('BWK2y')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/3847/1293847.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BWK2y</d:Id>
+      <d:AverageRating m:type="Edm.Double">4.1</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2012</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUrr')</id>
+    <title type="text">Dilwale Dulhania Le Jayenge</title>
+    <summary type="html">Wealthy, charming Raj meets working-class beauty Simran on a train, he's instantly smitten. She feels the same, but she's betrothed to another man. Raj isn't about to give up, so he follows Simran from London to India to win her over.</summary>
+    <updated>2012-10-23T21:06:19Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 9:06:19 PM&quot;" rel="edit-media" title="Title" href="Titles('ApUrr')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUrr')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/4298/504298.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUrr</d:Id>
+      <d:AverageRating m:type="Edm.Double">4</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1995</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVd1B')</id>
+    <title type="text">Chak De! India</title>
+    <summary type="html">Years after facing humiliating defeat on the field, a former field hockey star returns to the game as coach of the Indian women's national hockey team, striving to shape a ragtag bunch of female athletes into a playing force to be reckoned with.</summary>
+    <updated>2012-09-23T14:20:20Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;9/23/2012 2:20:20 PM&quot;" rel="edit-media" title="Title" href="Titles('BVd1B')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVd1B')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/6611/576611.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVd1B</d:Id>
+      <d:AverageRating m:type="Edm.Double">4</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2007</d:ReleaseYear>
+    </m:properties>
+  </entry>
+</feed>

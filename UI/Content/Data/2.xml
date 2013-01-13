@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://odata.netflix.com/Catalog/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Titles</title>
+  <id>http://odata.netflix.com/catalog/Genres('Hindi-Language%20Movies')/Titles()/</id>
+  <updated>2012-12-09T07:41:34Z</updated>
+  <link rel="self" title="Titles" href="Titles" />
+  <m:count>2209</m:count>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVf2K')</id>
+    <title type="text">Jab We Met</title>
+    <summary type="html">Changing fortunes await wealthy but dejected industrialist Aditya (Shahid Kapoor) when he meets a spirited chatterbox named Geet (Kareena Kapoor) on a train in this breezy romantic comedy from Bollywood director Imtiaz Ali. Nursing a broken heart, Aditya ends up traveling with the impulsive Geet, who's on her way to elope with her secret beau. But fate has other plans, and soon Geet and Aditya are thrust together again ... perhaps for keeps.</summary>
+    <updated>2012-07-10T23:10:15Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;7/10/2012 11:10:15 PM&quot;" rel="edit-media" title="Title" href="Titles('BVf2K')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVf2K')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/4624/524624.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVf2K</d:Id>
+      <d:AverageRating m:type="Edm.Double">4</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2007</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVoNW')</id>
+    <title type="text">3 Idiots</title>
+    <summary type="html">While attending one of India's premier colleges, miserable engineering students and best friends Rancho (Aamir Khan), Farhan (Madhavan) and Raju (Sharman Joshi) struggle to beat their school's draconian system, which, in their eyes, unfairly values grades over creativity. Loosely based on Chetan Bhagat's best-selling novel &amp;NFi;Five Point Someone&amp;NFi_;, this entertaining Bollywood comedy also stars Kareena Kapoor and Boman Irani.</summary>
+    <updated>2012-06-26T16:05:01Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/26/2012 4:05:01 PM&quot;" rel="edit-media" title="Title" href="Titles('BVoNW')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVoNW')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/8085/588085.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVoNW</d:Id>
+      <d:AverageRating m:type="Edm.Double">4</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2009</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVqtC')</id>
+    <title type="text">My Name is Khan</title>
+    <summary type="html">Rizwan Khan, a Muslim man with Asperger syndrome, lives happily with his wife, Mandira, in San Francisco until a tragedy drives her away after the 9/11 terrorist attacks. Now he's on a quest to recapture the heart of the woman he loves.</summary>
+    <updated>2012-10-12T21:28:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/12/2012 9:28:27 PM&quot;" rel="edit-media" title="Title" href="Titles('BVqtC')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVqtC')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/0022/1300022.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVqtC</d:Id>
+      <d:AverageRating m:type="Edm.Double">4</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2010</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApQuL')</id>
+    <title type="text">Dil Chahta Hai</title>
+    <summary type="html">Inseparable childhood friends Akash, Sameer and Siddharth are just out of college. Nothing comes between them -- until they each fall in love, and their wildly different approaches to relationships creates tension.</summary>
+    <updated>2012-10-23T00:47:22Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 12:47:22 AM&quot;" rel="edit-media" title="Title" href="Titles('ApQuL')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApQuL')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/8611/498611.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApQuL</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2001</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUhU')</id>
+    <title type="text">Munna Bhai</title>
+    <summary type="html">Munnabhai (Sanjay Dutt) is a goodhearted oaf who, along with his gang, settles "financial disputes." Life is good, except a couple times a year when his family -- who think Munnabhai is a bona fide doctor -- comes to visit, and an elaborate charade begins. Munnabhai and his posse don white coats, wear stethoscopes and act up a storm as the village doctors. But this time, when mom and dad visit, not everything goes according to plan.</summary>
+    <updated>2010-11-10T01:44:38Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;11/10/2010 1:44:38 AM&quot;" rel="edit-media" title="Title" href="Titles('ApUhU')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUhU')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/4064/504064.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUhU</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2003</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUrv')</id>
+    <title type="text">Kabhi Khushi Kabhie Gham: Bonus Material</title>
+    <summary type="html">Special features on this bonus disc include a making-of featurette, an exclusive 45-minute behind-the-scenes look at the movie as seen through the eyes of the cast and crew, a half-hour of never-before-seen deleted scenes with commentary by director Karan Johar and the theatrical trailer.</summary>
+    <updated>2011-01-01T07:18:25Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;1/1/2011 7:18:25 AM&quot;" rel="edit-media" title="Title" href="Titles('ApUrv')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUrv')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/9710/549710.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUrv</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2001</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('ApUrw')</id>
+    <title type="text">Kuch Kuch Hota Hai</title>
+    <summary type="html">Rahul (Shah Rukh Khan) and Anjuli (Kajol) were best friends in college, but their relationship grew stagnant when Anjuli was unable to tell Rahul how much she loved him. In the interim, Rahul met and married Tina (Rani Mukherjee). But when Tina dies in childbirth, she leaves her infant daughter a series of letters to read when she grows up, imploring her to find Rahul's college lover so that he may begin again.</summary>
+    <updated>2011-06-23T08:23:09Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;6/23/2011 8:23:09 AM&quot;" rel="edit-media" title="Title" href="Titles('ApUrw')/$value" />
+    <link rel="edit" title="Title" href="Titles('ApUrw')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-0.nflximg.com/images/9711/549711.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>ApUrw</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">1998</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVkjL')</id>
+    <title type="text">A Wednesday</title>
+    <summary type="html">This action-packed drama takes place over the course of four tension-filled hours on a Wednesday afternoon in Mumbai, India, beginning with a threatening phone call to police commissioner Prakash Rathod (Anupam Kher). Rathod is skeptical when the anonymous caller warns of a bomb planted near police headquarters, but when he actually finds the bomb, Rathod is forced into negotiations with the terrorist, who demands the release of four militants.</summary>
+    <updated>2012-08-29T13:25:44Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;8/29/2012 1:25:44 PM&quot;" rel="edit-media" title="Title" href="Titles('BVkjL')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVkjL')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/3654/1323654.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVkjL</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2008</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVlcb')</id>
+    <title type="text">Heroes</title>
+    <summary type="html">While traveling across India to deliver the last written letters of three deceased soldiers to their grieving loved ones, film students and best friends Sammy (Sohail Khan) and Ali (Vastal Seth) learn valuable lessons in patriotism. Along the journey, the young men encounter a widow (Preity Zinta) supporting her family, a disabled veteran (Sunny Deol) standing up for himself and a father (Mithun Chakraborty) struggling with his loss.</summary>
+    <updated>2010-11-12T23:41:03Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;11/12/2010 11:41:03 PM&quot;" rel="edit-media" title="Title" href="Titles('BVlcb')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVlcb')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/4523/584523.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVlcb</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2008</d:ReleaseYear>
+    </m:properties>
+  </entry>
+  <entry>
+    <id>http://odata.netflix.com/Catalog/Titles('BVNpr')</id>
+    <title type="text">Swades</title>
+    <summary type="html">An Americanized NASA scientist returns to his native India on a business trip and tries to get back in touch with his roots by finding the nanny who helped raise him. His mission forces him to examine his ways and all the changes he's been through.</summary>
+    <updated>2012-10-23T21:06:26Z</updated>
+    <author>
+      <name />
+    </author>
+    <link m:etag="&quot;10/23/2012 9:06:26 PM&quot;" rel="edit-media" title="Title" href="Titles('BVNpr')/$value" />
+    <link rel="edit" title="Title" href="Titles('BVNpr')" />
+    <category term="Netflix.Catalog.v2.Title" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="image/jpeg" src="http://cdn-1.nflximg.com/images/3653/1323653.jpg" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Id>BVNpr</d:Id>
+      <d:AverageRating m:type="Edm.Double">3.9</d:AverageRating>
+      <d:ReleaseYear m:type="Edm.Int32">2004</d:ReleaseYear>
+    </m:properties>
+  </entry>
+</feed>
