@@ -33,19 +33,14 @@
     }
 });
 
-var MovieEditDialog = Backbone.View.extend(window.ViewWithFields).extend({
-    fieldMapping: {
-        'Name': '#inputName',
-        'BoxArtUrl': '#inputBoxArtUrl',
-        'ShortSynopsis': '#inputShortSynopsis'
-    },
-    show: function () {
+var MovieEditView = Backbone.View.extend({
+    initialize: function () {
         var modelObject = this.model.toJSON();
-        var movieDialogBoxContainer = $(window.util.applyTemplate('movieEditDialog', modelObject));
-        $(window.body).append(movieDialogBoxContainer);
-        movieDialogBoxContainer.modal().on('hidden', function () {
-            $(window.body).remove(movieDialogBoxContainer);
-        });
+        //TODO :: Create edit view by applying template
+        //Display the view as bootstrap model dialog
+        //Capture events and validates the user data
+        //Update the model on server
+        //Close the dialog and destroy the view
     }
 });
 
@@ -60,16 +55,12 @@ var SlotView = Backbone.View.extend(window.DragDropView).extend({
         if (modelObject.Movie) {
             var movieImage = this.$('img');
             this.makeDraggable(modelObject.Movie, 'movieDragHelperTemplate', movieImage);
-            var that = this;
-            movieImage.dblclick(function () {
-                that.onMovieClick(modelObject.Movie);
-            });
+            movieImage.on('click', this.onMovieClick);
         }
         return this;
     },
     onMovieClick: function () {
-        var movieEditDialog = new MovieEditDialog({ model: this.model });
-        movieEditDialog.show();
+        
     },
     setDropOptions: function () {
         var model = this.model;
