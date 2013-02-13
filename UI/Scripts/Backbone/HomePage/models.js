@@ -21,6 +21,19 @@
         return promise;
     }
 });
+var MovieSlot = Backbone.Model.extend({
+    validation: {
+        'Movie.Name': {
+            required: true,
+            minLength: 4,
+            maxLength : 32
+        },
+        'Movie.ShortSynopsis': {
+            required: true,
+            minLength : 4
+        }
+    }
+});
 var MoviePlan = Backbone.Model.extend({
     url: '/api/MoviePlan',
     loadFromServer: function (criteria) {
@@ -28,7 +41,7 @@ var MoviePlan = Backbone.Model.extend({
         promise.done(function (data, textStatus, jqXHR) {
             var slots = this.get('Slots');
             for (var slotCounter = 0; slotCounter < slots.length; slotCounter++) {
-                var slotModel = new Backbone.Model(slots[slotCounter]);
+                var slotModel = new MovieSlot(slots[slotCounter]);
                 slotModel.set({ '_parent': this });
                 slotModel.set({ '_index': slotCounter });
                 slots[slotCounter] = slotModel;
