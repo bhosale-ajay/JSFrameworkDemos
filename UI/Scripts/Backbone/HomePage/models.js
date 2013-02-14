@@ -42,7 +42,6 @@ var MoviePlan = Backbone.Model.extend({
             var slots = this.get('Slots');
             for (var slotCounter = 0; slotCounter < slots.length; slotCounter++) {
                 var slotModel = new MovieSlot(slots[slotCounter]);
-                slotModel.set({ '_parent': this });
                 slotModel.set({ '_index': slotCounter });
                 slots[slotCounter] = slotModel;
             }

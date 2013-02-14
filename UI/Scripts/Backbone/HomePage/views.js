@@ -19,8 +19,10 @@
         var slots = this.model.get('Slots');
         for (var idx = 0; idx < slots.length; idx++) {
             var slot = slots[idx];
-            var slotView = new SlotView({ model: slot,
-                el: this.$('#' + slot.get('TimeSlot') + '_' + slot.get('Day'))
+            var slotView = new SlotView({
+                model: slot,
+                el: this.$('#' + slot.get('TimeSlot') + '_' + slot.get('Day')),
+                parentModel : this.model
             });
             slotView.render();
         }
@@ -35,7 +37,8 @@
 
 var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
     events: {
-        'click #submit': 'submit'
+        'click #submit': 'submit',
+        'blur input': 'validate'
     },
     modelFieldMapping: {
         'Movie.Name': '#inputName',
@@ -49,7 +52,6 @@ var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
 
         rootElement.html(window.util.applyTemplate('movieEditDialog', modelObject));
         parentContainer.append(currentView.$el);
-        //currentView.delegateEvents();
         Backbone.Validation.bind(currentView);
         rootElement.modal().on('hidden', function () {
             Backbone.Validation.unbind(currentView);
@@ -58,11 +60,12 @@ var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
     },
     submit: function (e) {
         e.preventDefault();
-        var data = this.getFormModel();
-        console.log(data);
-        //console.log(this.model.toJSON());
-        this.model.set(data);
+        this.validate();
         return false;
+    },
+    validate: function () {
+        var updatedMovie = _.extend(this.model.get('Movie'), this.getFormModel().Movie);
+        return this.model.set({ 'Movie': updatedMovie });
     }
 });
 
@@ -91,7 +94,7 @@ var SlotView = Backbone.View.extend(window.DragDropView).extend({
     setDropOptions: function () {
         var model = this.model;
         this.makeDroppable(this.$el, function (cell, droppedMovie) {
-            var parentModel = model.get('_parent');
+            var parentModel = this.options.parentModel;
             var index = model.get('_index');
             var response = parentModel.updateMovie(index, droppedMovie);
             if (response === false) {
@@ -159,7 +162,7 @@ var MovieSearchView = Backbone.View.extend(window.FormView).extend({
         var model = this.model;
         model.each(this.renderItem, this);
         this.$('img').popover({ placement: 'left', trigger: 'manual' });
-        this.elements('paginationBar').shortPager({
+        this.getElement('paginationBar').shortPager({
             totalPages: model.searchCriteria.totalPages,
             currentPage: model.searchCriteria.currentPage,
             callBack: function (pageIndex) {
@@ -169,7 +172,7 @@ var MovieSearchView = Backbone.View.extend(window.FormView).extend({
     },
     renderItem: function (item) {
         var view = new MovieSearchItemView({ model: item });
-        this.elements['searchResultsTable'].append(view.render().el);
+        this.getElement('searchResultsTable').append(view.render().el);
     }
 });
 
