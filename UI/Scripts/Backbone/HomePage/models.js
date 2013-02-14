@@ -14,8 +14,8 @@
     reload: function () {
         var promise = this.fetch({ data: this.searchCriteria, timeout: 5000, context: this });
         promise.done(function (data, textStatus, jqXHR) {
-            this.searchCriteria.totalPages = jqXHR.getResponseHeader('X-MP-TP') * 1;
-            this.searchCriteria.currentPage = jqXHR.getResponseHeader('X-MP-CP') * 1;
+            this.searchCriteria.totalPages = +jqXHR.getResponseHeader('X-MP-TP');
+            this.searchCriteria.currentPage = +jqXHR.getResponseHeader('X-MP-CP');
             this.trigger('reloaded');
         });
         return promise;
@@ -57,7 +57,7 @@ var MoviePlan = Backbone.Model.extend({
         var sameMovie = _.find(slots, function (slot) {
             var movie = slot.get('Movie');
             return currentSlotObject.Day == slot.get('Day') &&
-                            index != slot.get('_index') &&
+                            index != dslot.get('_index') &&
                             movie != null &&
                             updatedMovie.Id == movie.Id;
         });

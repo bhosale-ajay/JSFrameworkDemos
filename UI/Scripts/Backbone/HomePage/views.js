@@ -38,7 +38,7 @@
 var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
     events: {
         'click #submit': 'submit',
-        'blur input': 'validate'
+        'blur input' : 'validate'
     },
     modelFieldMapping: {
         'Movie.Name': '#inputName',
@@ -64,7 +64,7 @@ var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
         return false;
     },
     validate: function () {
-        var updatedMovie = _.extend(this.model.get('Movie'), this.getFormModel().Movie);
+        var updatedMovie = _.extend({}, this.model.get('Movie'), this.getFormModel().Movie);
         return this.model.set({ 'Movie': updatedMovie });
     }
 });

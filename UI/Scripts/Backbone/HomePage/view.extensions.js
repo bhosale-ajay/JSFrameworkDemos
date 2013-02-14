@@ -99,7 +99,6 @@
     };
     _.extend(Backbone.Validation.callbacks, {
         valid: function (view, attr, selector) {
-            console.log(attr);
             var control = view.getField(attr);
             if (!control) {
                 return;
@@ -116,7 +115,6 @@
             }
         },
         invalid: function (view, attr, error, selector) {
-            console.log(attr);
             var control = view.getField(attr);
             if (!control) {
                 return;
