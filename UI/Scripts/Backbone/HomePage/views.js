@@ -60,12 +60,16 @@ var MovieEditDialog = Backbone.View.extend(window.FormView).extend({
     },
     submit: function (e) {
         e.preventDefault();
-        this.validate();
+        var result = this.validate();
+        if (result) {
+            var updatedMovie = _.extend({}, this.model.get('Movie'), this.getFormModel().Movie);
+            this.options.parentView.updateMovie(updatedMovie);
+            this.$el.modal('hide');
+        }
         return false;
     },
     validate: function () {
-        var updatedMovie = _.extend({}, this.model.get('Movie'), this.getFormModel().Movie);
-        return this.model.set({ 'Movie': updatedMovie });
+        return !this.model.validate({ 'Movie': this.getFormModel().Movie });
     }
 });
 
@@ -88,32 +92,35 @@ var SlotView = Backbone.View.extend(window.DragDropView).extend({
         return this;
     },
     onMovieClick: function () {
-        var movieEditDialog = new MovieEditDialog({ model: this.model });
+        var movieEditDialog = new MovieEditDialog({ model: this.model, parentView : this });
         movieEditDialog.show();
     },
     setDropOptions: function () {
         var model = this.model;
         this.makeDroppable(this.$el, function (cell, droppedMovie) {
-            var parentModel = this.options.parentModel;
-            var index = model.get('_index');
-            var response = parentModel.updateMovie(index, droppedMovie);
-            if (response === false) {
-                //TODO :: show error in case of duplicate reject
-            }
-            else {
-                response.fail(function (jqXHR, textStatus, errorThrown) {
-                    if (jqXHR.status == 409) {
-                        util.showAlert('The slot has been modified on server, and it has been updated with latest changes.', 'Out of Sync');
-                    }
-                    else if (jqXHR.status == 400) {
-                        util.showAlert('The updated movie fails the duplicate check, please reload the movie plan.', 'Out of Sync');
-                    }
-                    else {
-                        util.handleError.apply(null, arguments);
-                    }
-                });
-            }
+            this.updateMovie(droppedMovie);
         });
+    },
+    updateMovie: function (updatedMovie) {
+        var parentModel = this.options.parentModel;
+        var index = this.model.get('_index');
+        var response = parentModel.updateMovie(index, updatedMovie);
+        if (response === false) {
+            //TODO :: show error in case of duplicate reject
+        }
+        else {
+            response.fail(function (jqXHR, textStatus, errorThrown) {
+                if (jqXHR.status == 409) {
+                    util.showAlert('The slot has been modified on server, and it has been updated with latest changes.', 'Out of Sync');
+                }
+                else if (jqXHR.status == 400) {
+                    util.showAlert('The updated movie fails the duplicate check, please reload the movie plan.', 'Out of Sync');
+                }
+                else {
+                    util.handleError.apply(null, arguments);
+                }
+            });
+        }
     }
 });
 
