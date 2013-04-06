@@ -57,7 +57,7 @@ var MoviePlan = Backbone.Model.extend({
         var sameMovie = _.find(slots, function (slot) {
             var movie = slot.get('Movie');
             return currentSlotObject.Day == slot.get('Day') &&
-                            index != dslot.get('_index') &&
+                            index != slot.get('_index') &&
                             movie != null &&
                             updatedMovie.Id == movie.Id;
         });
