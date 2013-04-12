@@ -229,12 +229,12 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\Backbone\backbone-0.9.2.min.js" />
     <Content Include="Scripts\Backbone\backbone.validation-0.7.1.min.js" />
+    <None Include="Scripts\Backbone\HomePage\controller.coffee" />
+    <None Include="Scripts\Backbone\HomePage\views.coffee" />
+    <None Include="Scripts\Backbone\HomePage\models.coffee" />
+    <None Include="Scripts\Backbone\HomePage\view.extensions.coffee" />
     <Content Include="Scripts\Common\bootstrap-2.1.1.min.js" />
     <Content Include="Scripts\Common\handlebars-1.0.rc.1.js" />
-    <Content Include="Scripts\Backbone\HomePage\controller.js" />
-    <Content Include="Scripts\Backbone\HomePage\models.js" />
-    <Content Include="Scripts\Backbone\HomePage\views.js" />
-    <Content Include="Scripts\Backbone\HomePage\view.extensions.js" />
     <Content Include="Scripts\Common\jquery-1.8.2.min.js" />
     <Content Include="Scripts\Common\jquery-ui-1.9.0.min.js" />
     <Content Include="Scripts\Common\jquery.unobtrusive-ajax.min.js" />
@@ -303,6 +303,9 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)\CoffeeScript\Coffee.cmd "$(ProjectDir)\Scripts\Backbone\HomePage\" "$(ProjectDir)\Scripts\Backbone\HomePage\"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
