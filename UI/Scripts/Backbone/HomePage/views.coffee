@@ -132,13 +132,11 @@
         modelObject = @model.toJSON()
         generaredHtml = util.applyTemplate 'moviceResultItemTemplate', modelObject
         @$el.html generaredHtml
-        @makeDraggable(
-            {
-                Id: modelObject.Id,
-                Name: modelObject.Name,
-                BoxArtUrl: modelObject.BoxArtUrl,
-                ShortSynopsis: modelObject.ShortSynopsis
-            },
+        @makeDraggable {
+            Id: modelObject.Id
+            Name: modelObject.Name
+            BoxArtUrl: modelObject.BoxArtUrl
+            ShortSynopsis: modelObject.ShortSynopsis },
             'movieDragHelperTemplate',
-            @$('img'))
+            @$('img')
         return @
